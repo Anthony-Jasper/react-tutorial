@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+*{
+	letter-spacing: 1px;
+}
+/* 
+#################################
+				HEADER
+################################# 
+*/
+#header-topbar{
+	display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+	justify-content: space-between;
+	background-color: lightgrey;
+	height: 50px;
+	padding-right: 20px;
+}
+#coupon-block{
+	display: flex;
+  width: 25%;
+  background: gold;
+	align-items: center;
+	padding: 10px 20px;
+}
+#header-submenu-button{
+	display: inline-block;
+	padding: 8px 10px;
+  text-transform: uppercase;
+  background-color: teal;
+  border: none;
+  color: white;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#header-submenulist{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+	margin-left: 15px;
+}
+#header-submenu{
+	display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.submenu-item{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.submenu-item a{
+	text-transform: uppercase;
+	color: teal;
+}
+.submenu-item .material-icons{
+	vertical-align: middle;
+}
+#coupon-content, #coupon-proceed{
+	text-transform: uppercase;
+}
+#coupon-proceed{
+	margin-left: 20px;
+	color: black;
+}
+
+#header-middlebar{
+	display: flex;
+  flex-wrap: nowrap;
+	align-items: center;
+	padding: 0 20px;
+}
+#logo{
+	height: 70px;
+}
+#header-search{
+	margin-left: auto;
+  position: relative;
+}
+#header-search input:first-of-type{
+	height: 30px;
+	width: 25em;
+	padding: 0px 10px;
+	background: transparent;
+	border: 1px solid green;
+}
+#header-search input:last-of-type{
+	position: absolute;
+	right: 4px;
+	height: 30px;
+	padding: 0;
+	border: none;
+	background: none;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#header-quicklinks{
+	display: flex;
+	margin-right: 15px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.primary-nav{
+	background: teal;
+}
+.primary-navlist{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	column-gap: 30px;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 15px 20px;
+}
+.primary-navlist-item a{
+	color: white;
+}
+#list-item-4 a{
+	color: gold;
+}
+
+#header-display{
+	height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+#header-heading{
+	text-transform: uppercase;
+  width: 11em;
+  text-align: center;
+  font-size: 3em;
+  margin-left: 2em;
+  top: 15%;
+  position: relative;
+}
+
+#header-c2a{
+	text-transform: uppercase;
+	width: auto;
+	text-align: center;
+	left: 16em;
+	top: 50%;
+	position: absolute;
+	cursor: pointer;
+	background-color: teal;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+}
